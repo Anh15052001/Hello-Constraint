@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private int mCount = 0;
     Button count;
     Button zero;
+    //DƯƠNG VIỆT ANH 20194220
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 mCount = 0;
                 textView.setText(Integer.toString(0));
+                zero.setBackgroundColor(zero.getContext().getResources().getColor(R.color.gray));
 
             }
         });
